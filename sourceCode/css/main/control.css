@@ -1,0 +1,44 @@
+#github,
+#instagram,
+#youtube,
+#discord {
+  transition: 0.4s all;
+  color: white;
+}
+#github:hover,
+#instagram:hover,
+#youtube:hover,
+#discord:hover {
+    animation-delay: 0.5s all;
+  padding: 5px;
+  transform: scale(1.2);
+  border-radius: 15%;
+}
+#github:hover {
+  color: black;
+  background-color: white;
+}
+#instagram:hover {
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+}
+#youtube:hover {
+  color: #ff0000;
+  background-color: white;
+}
+#discord:hover {
+  color: #5865f2;
+  background-color: white;
+}
+.nav-kanan a:hover {
+    color: black;
+    text-decoration: solid;
+    background-color: white;
+    border-radius: 10px;
+}
