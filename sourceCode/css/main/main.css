@@ -7,7 +7,6 @@
 /* setting backround */
 html,
 body {
-  background-color: black;
   height: 143%;
   scroll-behavior: smooth;
 }
